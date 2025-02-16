@@ -20,3 +20,4 @@ if (poliza = "basica"){
   alert(`Genail escogiste la poliza basica, el total es : ${precio} `)
 }else {
     alert("Ingrese una opcion valida entre Basica, Intermedia o Premium.")
+}
