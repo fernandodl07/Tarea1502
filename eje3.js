@@ -5,17 +5,17 @@
   PREGUNTE AL USUARIO QUÉ TIPO DE PÓLIZA DESEA Y CALCULE EL PRECIO TOTAL A PAGAR.
 */
 
-const poliza= prompt("Ingrese el tipo de póliza que desea(Básica, Intermedia, Premium): ").toLowerCase()
+let Poliza = prompt("Ingrese el tipo de póliza que desea(Básica, Intermedia, Premium): ").toLowerCase()
 let precio = 0
 
 
-if (poliza = "basica"){
+if (Poliza === "basica"){
     precio = 50
     alert(`Genail escogiste la poliza basica, el total es : ${precio} `)
-}else if (poliza = "intermedia"){
+}else if (Poliza === "intermedia"){
   precio = 75
   alert(`Genail escogiste la poliza basica, el total es : ${precio} `)
-}else if (poliza = "premium"){
+}else if (Poliza === "premium"){
   precio = 100
   alert(`Genail escogiste la poliza basica, el total es : ${precio} `)
 }else {
